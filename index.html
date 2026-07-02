@@ -101,33 +101,11 @@ nav ul li a.active{color:rgba(255,255,255,.85)}
 .work-card:hover .arrow{opacity:1;transform:translateX(0)}
 .work-card .arrow svg{width:14px;height:14px;color:rgba(255,255,255,.4)}
 
-/* ===== Music ===== */
-.music-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:24px;padding:36px;margin-bottom:16px}
-.music-player{display:flex;align-items:center;gap:28px}
-@media(max-width:640px){.music-player{flex-direction:column;text-align:center}}
-.album-art{width:80px;height:80px;border-radius:16px;background:rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center;font-size:32px;flex-shrink:0}
-.track-info{flex:1;min-width:0}
-.track-name{font-size:18px;font-weight:600;color:rgba(255,255,255,.9);margin-bottom:2px}
-.track-artist{font-size:13px;color:rgba(255,255,255,.3);margin-bottom:16px}
 .progress-track{width:100%;height:3px;background:rgba(255,255,255,.06);border-radius:2px;cursor:pointer;position:relative;margin-bottom:8px}
 .progress-fill{height:100%;width:0%;background:rgba(255,255,255,.3);border-radius:2px;transition:width .1s linear;position:relative}
 .progress-fill::after{content:'';position:absolute;right:-4px;top:50%;transform:translateY(-50%);width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.5);opacity:0;transition:opacity .2s}
 .progress-track:hover .progress-fill::after{opacity:1}
-.time-display{display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.2);margin-bottom:16px}
 .controls{display:flex;align-items:center;gap:16px}
-.ctrl-btn{width:36px;height:36px;border-radius:50%;border:none;background:rgba(255,255,255,.04);color:rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .25s}
-.ctrl-btn:hover{background:rgba(255,255,255,.08);color:#fff}
-.ctrl-btn svg{width:16px;height:16px}
-.play-btn{width:44px;height:44px;background:rgba(255,255,255,.08)}
-.play-btn:hover{background:rgba(255,255,255,.14)}
-.playlist{display:flex;flex-direction:column;gap:6px;margin-top:16px}
-.playlist-item{display:flex;align-items:center;gap:12px;padding:10px 16px;border-radius:12px;cursor:pointer;transition:background .25s}
-.playlist-item:hover{background:rgba(255,255,255,.04)}
-.playlist-item.active{background:rgba(255,255,255,.06)}
-.playlist-item .num{font-size:12px;font-weight:500;color:rgba(255,255,255,.15);min-width:20px}
-.playlist-item .song-name{font-size:14px;font-weight:500;color:rgba(255,255,255,.65);flex:1}
-.playlist-item.active .song-name{color:rgba(255,255,255,.9)}
-.playlist-item .song-artist{font-size:12px;color:rgba(255,255,255,.25)}
 
 /* ===== Contact ===== */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
